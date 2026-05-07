@@ -23,7 +23,7 @@ StringBuilder sb = new StringBuilder(s) ;
 		sb.reverse();	
 		System.out.println(sb);
     
-	
+		for (int elem :) { System.out.println(elem); }
 	
 	}
 	}

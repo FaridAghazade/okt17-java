@@ -42,6 +42,8 @@ public class Masstap {
     
   int[] arr5 = {7, 2, 9, 4};
   System.out.println(arr5.length);
+ 
+
 
   
 
