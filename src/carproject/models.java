@@ -1,12 +1,12 @@
 package carproject;
 
-public class models {
+public class Models {
 String brand;
 int year;
 
 
 
-public models(String brand, int year) {
+public Models(String brand, int year) {
 	
 	this.brand = brand;
 	this.year = year;

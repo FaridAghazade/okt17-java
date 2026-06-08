@@ -1,11 +1,11 @@
 import carproject.drivers;
-import carproject.models;
+import carproject.Models;
 
 public class Main {
  public static void main(String[] args) {
-	models m = new models("BMW",2026);
+	Models m = new Models("BMW",2026);
 	m.showcar();
-	models s = new models("mercedes",2025);
+	Models s = new Models("mercedes",2025);
 	s.showcar();
 	
 	drivers d = new drivers("Ferid",2013);
