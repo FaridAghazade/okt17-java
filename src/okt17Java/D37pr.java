@@ -43,5 +43,17 @@ public class D37pr {
 	 return ortalama;
  }
  
+ boolean sifreYoxla(String sifre) {
+	 if (sifre.length() <= 8 || sifre.length() >= 8 & sifre.matches(".*\\d.*")) {
+		return true;
+		
+	}
+	 else {
+		 return false;
+	 }
+	 
+ }
+ 
+ 
 
 }

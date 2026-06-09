@@ -11,5 +11,7 @@ public static void main(String[] args) {
 	System.out.println("Massivin cemi: "+ i.massivCemi(arr));
 	
 	System.out.println("massivin ortalamasi: " + i.massivOrtalama(arr));
+	System.out.println("sifre: "+i.sifreYoxla("abc1234def"));
+	
 }
 }
