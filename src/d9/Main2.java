@@ -14,6 +14,23 @@ public class Main2 {
        s4.displayInfo();
        
        s.printHighestScore();
+		
+		Pr p = new Pr("Nicat",2000);
+		Pr p2 = new Pr("Elcin",2500);
+		
+		p.displayAccount();
+		p2.displayAccount();
+		
+		
+		
+//	System.out.println(D42pr.sum(27, 23));
+	
+
+	
+	System.out.println(D42pr.count);
+	System.out.println("Program basladi");
+		
+	System.out.println("Mektebin adi : " + School.schoolName);
 
        
        
