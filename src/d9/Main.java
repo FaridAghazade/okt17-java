@@ -3,27 +3,31 @@ package d9;
 public class Main {
 
 	public static void main(String[] args) {
-d39tap d = new d39tap("ferid",13);
-d.goster(true);
-d.goster(4.5);
-d.goster(6);
-d.goster("Ferid");
-System.out.println("ededin ortalamasi: "+ d.ortalama(5, 7));
+ Phone p = new Phone("Bmw","x7",2900);
+ p.setQiymet(3000);
+ p.melumatGoster();
+ System.out.println();
+ Book b = new Book();
+ b.setBaslik("feridin seyaheti");
+System.out.println("Baslik: "+  b.getBaslik());
+ b.setMuellif("Ferid");
+System.out.println("Muellif: " +  b.getMuellif());
+ b.setSehifeSayi(212);
+System.out.println("Sehifesayi: "+  b.getSehifeSayi());
+ System.out.println();
+ BankAccount ba = new BankAccount();
+System.out.println("Balansa pul qoyulanlan sonra balans: "+  ba.deposit(34443));
+System.out.println("Balansdan pul cixilanda sonra balans: "+   ba.withdraw(2000));
+System.out.println();
 
-System.out.println("ededin ortalamasi: "+ d.ortalama(5, 7,4));
+User u = new User();
+u.setParol("1234567");
+System.out.print("parol: ");
+u.getParol();
 
-int[] arr = {1,2,3,4,5};
-d.ortalama(arr);
-System.out.println("sahe:"+ d.sahe(6,8,12));
-System.out.println("sahe:"+ d.sahe(5,7));
-System.out.println("sahe:"+ d.sahe(28.2));
-d.salam("ferid");
-d.salam("ferid", "ingilis");
-d.topla(arr);
-System.out.println("ededlerin cemi: "+ d.topla(6, 12));
-System.out.println("ededlerin cemi: "+ d.topla(66, 77));
-System.out.println("ededlerin cemi: "+ d.topla(5,6, 7));
-System.out.println("ededlerin cemi: "+ d.topla(arr));
+ 
+ 
+
 
 
 }
