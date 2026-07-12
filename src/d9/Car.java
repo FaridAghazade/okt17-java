@@ -5,6 +5,7 @@ int doors;
 
 public Car(String brand,int year,int doors) {
 	super(brand, year);
+
 	this.doors = doors;
 }
 

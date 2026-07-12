@@ -6,7 +6,7 @@ int year;
 
 
 public Vehicle(String brand, int year) {
-	super();
+	
 	this.brand = brand;
 	this.year = year;
 }
