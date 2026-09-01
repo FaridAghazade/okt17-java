@@ -15,6 +15,8 @@ public class Main {
 		o.order(p, 1);
 		o.order(b, 3, true);
 		
+	
+		
 		
 	}
 
